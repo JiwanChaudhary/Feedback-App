@@ -1,7 +1,8 @@
+import React from "react";
+import Header from "./components/Header";
 
-function App() {
-  return <div>Hello World</div>
-   
-}
+const App = () => {
+  return <Header text = 'I am Header from App' />;
+};
 
 export default App;
