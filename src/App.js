@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 
 const App = () => {
-  return <Header text = 'I am Header from App' />;
+  return <Header />;
 };
 
 export default App;
