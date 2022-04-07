@@ -1,13 +1,12 @@
 import React from "react";
+import Card from "../common/Card";
 
-const FeedbackItem = ({item}) => {
+const FeedbackItem = ({ item }) => {
   return (
-    <>
-      <div className="card">
-        <div className="num-display">{item.rating}</div>
-        <p>{item.text}</p>
-      </div>
-    </>
+    <Card>
+      <div className="num-display">{item.rating}</div>
+      <p>{item.text}</p>
+    </Card>
   );
 };
 
